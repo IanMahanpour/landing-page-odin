@@ -39,6 +39,14 @@ ul {
 li {
     padding: 20px;
 }
+button {
+    background: none;
+    color: #e5e7eb;
+    font-size: large;
+    border: 3px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
 .hero {
     display: flex;
     justify-content: center;
@@ -82,15 +90,22 @@ h4 {
     display: flex ;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
     gap: 20px;
-}
-.action div {
-
-    
 }
 .action button {
     flex-shrink: 0;
+    color: #1f2937;
+    border-color: #1f2937;
+}
+.action > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-color: lightblue;
+    border-radius: 25px;
+    padding: 30px;
 }
 .footer {
     display: flex;
