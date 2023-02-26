@@ -2,8 +2,9 @@ body {
     font-family: Helvetica, Arial sans-serif;
     color: #1b1b1b;
     background-color: antiquewhite;
+    margin: 0;
 }
-.header, .footer {
+.header, .footer, .hero {
     color: antiquewhite;
     background-color: #1f2937;
 }
@@ -25,6 +26,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+}
+.quoteAuthor {
+    margin-left: 150px;
+    font-weight: bold;
 }
 ul {
     list-style: none;
@@ -38,7 +44,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 30px;
+    padding: 90px;
 }
 .placeholder {
     padding: 100px;
@@ -49,15 +55,53 @@ li {
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    padding: 40px;
 }
 .images {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 200px;
+    margin: 60px;
 }
 .images div {
     flex: 1;
+    padding: 10px;
+    text-align: center;
 }
 h4 {
     width: 500px;
+    color: #474747;
+    font-weight: 100;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    line-height: 30px;
+}
+.action {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.action div {
+
+    
+}
+.action button {
+    flex-shrink: 0;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+table {
+    border: #1f2937;
+    border-width: 10px;
+    border-style: solid;
+    padding: 60px;
+    border-radius: 25px;
 }
